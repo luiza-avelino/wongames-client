@@ -11,6 +11,6 @@ describe('<Menu />', () => {
     expect(screen.getByLabelText(/Search/i)).toBeInTheDocument()
     expect(screen.getByLabelText(/open Shopping Cart/i)).toBeInTheDocument()
 
-    expect(screen.getByLabelText(/Won Games/i)).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: /Won Games/i })).toBeInTheDocument()
   })
 })
