@@ -9,7 +9,7 @@ import * as S from './styles'
 const Menu = () => (
   <S.Wrapper>
     <S.IconWrapper>
-      <MenuIcon />
+      <MenuIcon aria-label="Open Menu" />
     </S.IconWrapper>
     <S.LogoWrapper>
       <Logo hideOnMobile />
@@ -17,10 +17,10 @@ const Menu = () => (
 
     <S.MenuGroup>
       <S.IconWrapper>
-        <SearchIcon />
+        <SearchIcon aria-label="Search" />
       </S.IconWrapper>
       <S.IconWrapper>
-        <ShoppingCartIcon />
+        <ShoppingCartIcon aria-label="open Shopping Cart" />
       </S.IconWrapper>
     </S.MenuGroup>
   </S.Wrapper>
